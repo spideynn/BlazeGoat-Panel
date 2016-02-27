@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: #373737;
+}
+
+body {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+}
+
+.page {
+    margin: 2em auto;
+    width: 70%;
+    border: 5px solid gray;
+    padding: 0.8em;
+    background: #D3D3D3;
+}
+
+.entries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.entries li {
+    margin: 0.8em 1.2em;
+}
+
+.entries li h2 {
+    margin-left: -1em;
+}
+
+.panel-index button {
+    margin-top: 5px;
+}
+
+.adminpanel {
+    border: 5px solid gray;
+}
+
+.adminpanel table, th, td {
+    border: 1px solid gray;
+}
